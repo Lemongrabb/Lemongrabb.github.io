@@ -1,21 +1,55 @@
 <!DOCTYPE html>
-<html lang="pl" >
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
-  <title>Glitchy text w/ Splitting.js ⚡️</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-<link rel="stylesheet" href="css/style.css">
+  <title>Parallax Depth Cards</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Playfair+Display:700|Raleway:500.700'>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-<div class="container">
   <div class="page">
-    <div class="glitch glitch--6" data-scroll="out" data-splitting="">Krzysztof Tomczyk</div>
+    <div class="glitch glitch--6" data-splitting="">Krzysztof Tomczyk</div>
   </div>
-</div>
-
-<script src='https://unpkg.com/splitting/dist/splitting.js'></script>
-<script  src="js/script.js"></script>
+  <div id="app" class="container">
+    <card
+      data-image="https://i.pinimg.com/originals/9c/81/cc/9c81cc1e95d9b54be97d41c92ac99e14.jpg">
+      <h1 slot="header">C#</h1>
+      <p slot="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    </card>
+    <card
+      data-image="https://images.unsplash.com/photo-1479659929431-4342107adfc1?dpr=2&auto=compress,format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop=">
+      <h1 slot="header">SQL</h1>
+      <p slot="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    </card>
+    <card
+      data-image="https://images.unsplash.com/photo-1479644025832-60dabb8be2a1?dpr=2&auto=compress,format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop=">
+      <h1 slot="header">HTML</h1>
+      <p slot="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    </card>
+    <card
+      data-image="https://images.unsplash.com/photo-1479621051492-5a6f9bd9e51a?dpr=2&auto=compress,format&fit=crop&w=1199&h=811&q=80&cs=tinysrgb&crop=">
+      <h1 slot="header">PHP</h1>
+      <p slot="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    </card>
+    <card
+      data-image="https://i.pinimg.com/originals/9c/81/cc/9c81cc1e95d9b54be97d41c92ac99e14.jpg">
+      <h1 slot="header">C#</h1>
+      <p slot="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    </card>
+    <card
+      data-image="https://images.unsplash.com/photo-1479659929431-4342107adfc1?dpr=2&auto=compress,format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop=">
+      <h1 slot="header">SQL</h1>
+      <p slot="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    </card>
+  </div>
+  
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.1/vue.min.js'></script>
+  <script src='https://unpkg.com/splitting/dist/splitting.js'></script>
+  <script src="js/cards.js"></script>
+  <script  src="js/glitch.js"></script>
 </body>
 </html>
