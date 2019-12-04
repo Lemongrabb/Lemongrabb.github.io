@@ -534,12 +534,13 @@ h1 + p, p + p {
   height: 90px;
 }
 
-#java {
-  background-image: url(https://retohercules.com/images/java-png-9.png);
-  background-size: 116px;
-  width: 95px;
-  height: 124px;
-  margin-left: 1.0em;
+#php {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg);
+  background-size: 126px;
+    width: 126px;
+    height: 67px;
+    margin-left: 36px;
+    margin-bottom: -12px;
 }
 
 #unity {
