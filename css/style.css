@@ -498,7 +498,6 @@ body {
   font-size: 10vh;
 }
 .container {
-  height: 40vh;
   overflow: auto;
   overflow-x: hidden;
   -ms-scroll-snap-type: y mandatory;
@@ -520,6 +519,46 @@ p {
 h1 + p, p + p {
   margin-top: 10px;
 }
+
+#csharp {
+  background-image: url(https://trungtq.com/wp-content/uploads/2018/12/c-sharp-logo-filled.png);
+  background-size: 90px;
+  width: 90px;
+  height: 90px;
+}
+
+#sql {
+  background-image: url(https://rivalryhondro.files.wordpress.com/2016/11/sql-logo.png);
+  background-size: 90px;
+  width: 90px;
+  height: 90px;
+}
+
+#java {
+  background-image: url(https://retohercules.com/images/java-png-9.png);
+  background-size: 116px;
+  width: 95px;
+  height: 124px;
+  margin-left: 1.0em;
+}
+
+#unity {
+  background-image: url(https://unity.com/logo-unity-web.png);
+  background-size: 332px;
+  width: 152px;
+  height: 134px;
+  margin-left: -12px;
+  margin-bottom: 48px;
+}
+
+#html {
+  background-image: url(https://bms.com.pl/wordpress/wp-content/uploads/2015/10/html.png);
+  background-size: 90px;
+  width: 90px;
+  height: 90px;
+}
+
+
 
 @-webkit-keyframes glitch--0 {
   0%, 50%, 58% {
@@ -1075,4 +1114,5 @@ Do wyjebania w razie czego:
   font-size: 36px;
   font-weight: 700;
   text-shadow: rgba(0, 0, 0, 0.5) 0 10px 10px;
+  margin-left: 1.5em;
 }
