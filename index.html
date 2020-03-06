@@ -1,55 +1,71 @@
-<!DOCTYPE html>
-<html lang="pl">
+<div class="code-editor">	
+			<span class="control"></span>
+			<span class="control"></span>
+			<span class="control"></span>
+			<pre class="line-numbers language-css">				<code class=" language-css">
+<span class="token comment" spellcheck="true">/* 
+   My curriculum vitae
+   you can contact me on hi@cristinallamas.me
+*/</span>
 
-<head>
-  <meta charset="UTF-8">
-  <title>Krzysztof Tomczyk - Portfolio</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Playfair+Display:700|Raleway:500.700'>
-  <link rel="stylesheet" href="css/style.css">
-</head>
+<span class="token selector">#studies</span><span class="token punctuation">{</span>
 
-<body>
-  <div class="page">
-    <div class="glitch glitch--7" data-splitting="">Krzysztof Tomczyk</div>
-  </div>
-  <div id="app" class="container">
-      <card
-      data-image="https://unity3d.com/profiles/unity3d/themes/unity/images/unity/beta/alpha-beta/unity-beta-dark-cust.jpg">
-      <h1 slot="header" id="unity"></h1>
-      <p slot="content">Unity wraz z C# daje mi mnóstwo możliwości. Moją pracę dyplomową oparłem o Unity.</p>
-    </card>
-    <card
-      data-image="https://images.unsplash.com/photo-1550645612-83f5d594b671?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80">
-      <h1 slot="header" id="csharp"></h1>
-      <p slot="content">C# jest moim głównym językiem programowania. Na codzień korzystam właśnie z niego.</p>
-    </card>
-    <card
-      data-image="https://c.wallhere.com/photos/fa/20/syntax_highlighting_code_HTML_CSS_computer_pixels-34734.jpg!d">
-      <h1 slot="header" id="html"></h1>
-      <p slot="content">Językiem HTML i CSS posługuję się na codzień, tworząc strony takie jak właśnie to portfolio.</p>
-    </card>
-    <card
-      data-image="https://techcrunch.com/wp-content/uploads/2016/02/cleandatabase.jpg?w=730&crop=1">
-      <h1 slot="header" id="sql"></h1>
-      <p slot="content">Potrafię bez przeszkód korzystać z SQL, w połączniu z PDO lub MySQLi.</p>
-    </card>
-    <card
-      data-image="https://www.katkime.com/wp-content/uploads/2018/06/code-on-screen-e1528581612997.jpg">
-      <h1 slot="header" id="php"></h1>
-      <p slot="content">Korzystam z języka PHP, głównie wtedy, gdy chcę połączyć stronę internetową z bazą danych.</p>
-    </card>
-    <card
-      data-image="https://i.ytimg.com/vi/1FnGkJtQJDY/maxresdefault.jpg">
-      <h1 slot="header" id="asp"></h1>
-      <p slot="content">ASP.Net dopiero zaczynam poznawać, póki co mogę rzec, że nauka idzie pełną parą.</p>
-    </card>
-  </div>
-  
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.1/vue.min.js'></script>
-  <script src='https://unpkg.com/splitting/dist/splitting.js'></script>
-  <script src="js/cards.js"></script>
-  <script  src="js/glitch.js"></script>
-</body>
-</html>
+  <span class="token selector">.2005</span><span class="token punctuation">{</span>
+    <span class="token property">University_of_Alicante</span><span class="token punctuation">:</span> IT<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+  <span class="token selector">.2011</span><span class="token punctuation">{</span>
+    <span class="token selector">.erasmus</span><span class="token punctuation">{</span>
+      <span class="token property">University_of_Gdansk</span><span class="token punctuation">:</span> IT<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector">#skills </span><span class="token punctuation">{</span>
+
+  <span class="token property">php</span><span class="token punctuation">:</span> 70%<span class="token punctuation">;</span>
+  <span class="token property">jQuery</span><span class="token punctuation">:</span> 20%<span class="token punctuation">;</span>
+  <span class="token property">css</span><span class="token punctuation">:</span> 90%<span class="token punctuation">;</span>
+  <span class="token property">sass</span><span class="token punctuation">:</span> 70%<span class="token punctuation">;</span>
+  <span class="token property">html</span><span class="token punctuation">:</span> 90%<span class="token punctuation">;</span>
+  <span class="token property">drupal</span><span class="token punctuation">:</span> 6-7<span class="token punctuation">;</span>
+  <span class="token property">UX</span><span class="token punctuation">:</span> relative<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector">#projects</span><span class="token punctuation">{</span>
+
+  <span class="token selector">.agata_cieslak</span><span class="token punctuation">{</span>
+    <span class="token property">drupal</span><span class="token punctuation">:</span> 7<span class="token punctuation">;</span>
+    <span class="token property">background</span><span class="token punctuation">:</span> <span class="token url">url("www.agatacieslak.com")</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+  <span class="token selector">.dead_letter_records</span><span class="token punctuation">{</span>
+    <span class="token property">drupal</span><span class="token punctuation">:</span> 7 commerce<span class="token punctuation">;</span>
+    <span class="token property">background</span><span class="token punctuation">:</span> <span class="token url">url("www.deadletterrecords.com")</span><span class="token punctuation">;</span>
+    &amp;<span class="token selector">:before</span><span class="token punctuation">{</span>
+      <span class="token property">display</span><span class="token punctuation">:</span> static<span class="token punctuation">;</span>
+      <span class="token property">cms</span><span class="token punctuation">:</span> none<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+  <span class="token punctuation">}</span>
+  <span class="token selector">.peepsout</span><span class="token punctuation">{</span>
+    <span class="token property">drupal</span><span class="token punctuation">:</span> 7<span class="token punctuation">;</span>
+    <span class="token property">background</span><span class="token punctuation">:</span> <span class="token url">url("www.peepsout.com")</span><span class="token punctuation">;</span> 
+    <span class="token property">display</span><span class="token punctuation">:</span>none<span class="token punctuation">;</span>// overridden by a wordpress site
+      &amp;<span class="token selector">;:before</span><span class="token punctuation">{</span>
+        <span class="token url">url("www.cristinallamas.me/projects/peepsout")</span><span class="token punctuation">;</span>
+      <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector">#jobs</span><span class="token punctuation">{</span>
+  <span class="token selector">.2011</span><span class="token punctuation">{</span>
+    <span class="token property">freelance</span><span class="token punctuation">:</span>absolute<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>  
+  <span class="token selector">.2012</span><span class="token punctuation">{</span>
+    <span class="token property">position</span><span class="token punctuation">:</span><span class="token string">"Junior Drupal Developer"</span><span class="token punctuation">;</span>
+    <span class="token property">company</span><span class="token punctuation">:</span><span class="token string">"ATD Travel Services"</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+</div>
