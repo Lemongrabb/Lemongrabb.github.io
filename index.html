@@ -1,88 +1,95 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="pl" >
+
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - sass cv</title>
+  <title>Krzysztof Tomczyk - CV</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
 <link rel="stylesheet" href="./style.css">
-
 </head>
+
 <body>
-<!-- partial:index.partial.html -->
 <div class="code-editor">	
 			<span class="control"></span>
 			<span class="control"></span>
 			<span class="control"></span>
 			<pre class="line-numbers language-css">				<code class=" language-css">
-<span class="token comment" spellcheck="true">/* 
-   My curriculum vitae
-   you can contact me on hi@cristinallamas.me
+<span class="token comment">/* 
+    Greetings on my curriculum vitae
+    beneath you will find all necesary info about me
 */</span>
 
-<span class="token selector">#studies</span><span class="token punctuation">{</span>
+<span class="token selector">#aboutMe </span><span class="token punctuation">{</span>
+  <span class="token property">name</span><span class="token punctuation">:<span class="token string"> "Krzysztof"</span><span class="token punctuation">;</span>
+  <span class="token property">surname</span><span class="token punctuation">:<span class="token string"> "Tomczyk"</span><span class="token punctuation">;</span>
+  <span class="token property">title</span><span class="token punctuation">:<span class="token string"> "Engineer"</span><span class="token punctuation">;</span>
+  <span class="token property">birth</span><span class="token punctuation">: 1996<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
 
-  <span class="token selector">.2005</span><span class="token punctuation">{</span>
-    <span class="token property">University_of_Alicante</span><span class="token punctuation">:</span> IT<span class="token punctuation">;</span>
-  <span class="token punctuation">}</span>
-  <span class="token selector">.2011</span><span class="token punctuation">{</span>
-    <span class="token selector">.erasmus</span><span class="token punctuation">{</span>
-      <span class="token property">University_of_Gdansk</span><span class="token punctuation">:</span> IT<span class="token punctuation">;</span>
+<span class="token selector">#education</span><span class="token punctuation">{</span>
+  <span class="token selector">.studies</span><span class="token punctuation">{</span>
+    <span class="token selector">.first_degree</span><span class="token punctuation">{</span>
+      <span class="token property">university</span><span class="token punctuation">:</span><span class="token string"> "Wrocław University of Science and Technology"</span><span class="token punctuation">;</span>
+      <span class="token property">field_of_study</span><span class="token punctuation">:</span><span class="token string"> "Industrial Computer Science""</span><span class="token punctuation">;</span>
+      <span class="token property">year_of_start</span><span class="token punctuation">:</span> 2016<span class="token punctuation">;</span>
+      <span class="token property">year_of_graduation</span><span class="token punctuation">:</span> 2020<span class="token punctuation">;</span>
+      <span class="token property">title_after_graduation</span><span class="token punctuation">:</span><span class="token string"> "Engineer"</span><span class="token punctuation">;</span>
+      <span class="token property">final_grade</span><span class="token punctuation">:</span> 5<span class="token punctuation">;</span>
     <span class="token punctuation">}</span>
+    <span class="token selector">.second_degree</span><span class="token punctuation">{</span>
+      <span class="token property">university</span><span class="token punctuation">:</span><span class="token string"> "Wrocław University of Science and Technology"</span><span class="token punctuation">;</span>
+      <span class="token property">field_of_study</span><span class="token punctuation">:</span><span class="token string"> "Electronics and Telecommunication"</span><span class="token punctuation">;</span>
+      <span class="token property">year_of_start</span><span class="token punctuation">:</span> 2020<span class="token punctuation">;</span>
+      <span class="token property">year_of_graduation</span><span class="token punctuation">:</span> null<span class="token punctuation">;</span><span class="token comment"> /* in progress */</span>
+      <span class="token property">title_after_graduation</span><span class="token punctuation">:</span><span class="token string"> "Master"</span><span class="token punctuation">;</span>
+      <span class="token property">final_grade</span><span class="token punctuation">:</span> null<span class="token punctuation">;
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+  <span class="token selector">.schooling</span><span class="token punctuation">{</span>
+    <span class="token property">school</span><span class="token punctuation">:</span><span class="token string"> "Lubań KZL High School Complex"</span><span class="token punctuation">;</span>
+    <span class="token property">profile</span><span class="token punctuation">:</span><span class="token string"> "IT Technical College"</span><span class="token punctuation">;</span>
+    <span class="token property">year_of_start</span><span class="token punctuation">:</span> 2012<span class="token punctuation">;</span>
+    <span class="token property">year_of_graduation</span><span class="token punctuation">:</span> 2016<span class="token punctuation">;</span>
+    <span class="token property">title_after_graduation</span><span class="token punctuation">:</span><span class="token string"> "Technican"</span><span class="token punctuation">;</span>
   <span class="token punctuation">}</span>
 <span class="token punctuation">}</span>
 
 <span class="token selector">#skills </span><span class="token punctuation">{</span>
-
-  <span class="token property">php</span><span class="token punctuation">:</span> 70%<span class="token punctuation">;</span>
-  <span class="token property">jQuery</span><span class="token punctuation">:</span> 20%<span class="token punctuation">;</span>
-  <span class="token property">css</span><span class="token punctuation">:</span> 90%<span class="token punctuation">;</span>
-  <span class="token property">sass</span><span class="token punctuation">:</span> 70%<span class="token punctuation">;</span>
-  <span class="token property">html</span><span class="token punctuation">:</span> 90%<span class="token punctuation">;</span>
-  <span class="token property">drupal</span><span class="token punctuation">:</span> 6-7<span class="token punctuation">;</span>
-  <span class="token property">UX</span><span class="token punctuation">:</span> relative<span class="token punctuation">;</span>
-<span class="token punctuation">}</span>
-
-<span class="token selector">#projects</span><span class="token punctuation">{</span>
-
-  <span class="token selector">.agata_cieslak</span><span class="token punctuation">{</span>
-    <span class="token property">drupal</span><span class="token punctuation">:</span> 7<span class="token punctuation">;</span>
-    <span class="token property">background</span><span class="token punctuation">:</span> <span class="token url">url("www.agatacieslak.com")</span><span class="token punctuation">;</span>
+  <span class="token selector">.languages</span><span class="token punctuation">{</span>
+    <span class="token property">C#</span><span class="token punctuation">:</span> 70%<span class="token punctuation">;</span>
+    <span class="token property">HTML</span><span class="token punctuation">:</span> 100%<span class="token punctuation">;</span>
+    <span class="token property">CSS</span><span class="token punctuation">:</span> 70%<span class="token punctuation">;</span>
+    <span class="token property">JS</span><span class="token punctuation">:</span> 20%<span class="token punctuation">;</span>
+    <span class="token property">PHP</span><span class="token punctuation">:</span> 40%<span class="token punctuation">;</span>
+    <span class="token property">SQL</span><span class="token punctuation">:</span> 50%<span class="token punctuation">;</span>
   <span class="token punctuation">}</span>
-  <span class="token selector">.dead_letter_records</span><span class="token punctuation">{</span>
-    <span class="token property">drupal</span><span class="token punctuation">:</span> 7 commerce<span class="token punctuation">;</span>
-    <span class="token property">background</span><span class="token punctuation">:</span> <span class="token url">url("www.deadletterrecords.com")</span><span class="token punctuation">;</span>
-    &amp;<span class="token selector">:before</span><span class="token punctuation">{</span>
-      <span class="token property">display</span><span class="token punctuation">:</span> static<span class="token punctuation">;</span>
-      <span class="token property">cms</span><span class="token punctuation">:</span> none<span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-
-  <span class="token punctuation">}</span>
-  <span class="token selector">.peepsout</span><span class="token punctuation">{</span>
-    <span class="token property">drupal</span><span class="token punctuation">:</span> 7<span class="token punctuation">;</span>
-    <span class="token property">background</span><span class="token punctuation">:</span> <span class="token url">url("www.peepsout.com")</span><span class="token punctuation">;</span> 
-    <span class="token property">display</span><span class="token punctuation">:</span>none<span class="token punctuation">;</span>// overridden by a wordpress site
-      &amp;<span class="token selector">;:before</span><span class="token punctuation">{</span>
-        <span class="token url">url("www.cristinallamas.me/projects/peepsout")</span><span class="token punctuation">;</span>
-      <span class="token punctuation">}</span>
+  <span class="token selector">.environments</span><span class="token punctuation">{</span>
+    <span class="token property">VisualStudio</span><span class="token punctuation">:</span> 60%<span class="token punctuation">;</span>
+    <span class="token property">VisualStudioCode</span><span class="token punctuation">:</span> 100%<span class="token punctuation">;</span>
+    <span class="token property">Unity</span><span class="token punctuation">:</span> 90%<span class="token punctuation">;</span>
+    <span class="token property">Blender</span><span class="token punctuation">:</span> 20%<span class="token punctuation">;</span>
+    <span class="token property">GitHub</span><span class="token punctuation">:</span> 80%<span class="token punctuation">;</span>
+    <span class="token property">AgileSystems</span><span class="token punctuation">:</span> 80%<span class="token punctuation">;</span>
   <span class="token punctuation">}</span>
 <span class="token punctuation">}</span>
 
 <span class="token selector">#jobs</span><span class="token punctuation">{</span>
-  <span class="token selector">.2011</span><span class="token punctuation">{</span>
-    <span class="token property">freelance</span><span class="token punctuation">:</span>absolute<span class="token punctuation">;</span>
+  <span class="token selector">.freelancer</span><span class="token punctuation">{</span>
+    <span class="token property">main_job</span><span class="token punctuation">:</span><span class="token string"> "Web Development"</span><span class="token punctuation">;</span>
+    <span class="token property">secondary_job</span><span class="token punctuation">:</span><span class="token string"> "Fixing computers and mobile devices"</span><span class="token punctuation">;</span>
   <span class="token punctuation">}</span>  
-  <span class="token selector">.2012</span><span class="token punctuation">{</span>
-    <span class="token property">position</span><span class="token punctuation">:</span><span class="token string">"Junior Drupal Developer"</span><span class="token punctuation">;</span>
-    <span class="token property">company</span><span class="token punctuation">:</span><span class="token string">"ATD Travel Services"</span><span class="token punctuation">;</span>
+  <span class="token selector">.teaching</span><span class="token punctuation">{</span>
+    <span class="token property">position</span><span class="token punctuation">:</span><span class="token string"> "IT Instructor"</span><span class="token punctuation">;</span>
+    <span class="token property">employer</span><span class="token punctuation">:</span><span class="token string"> "The European Union"</span><span class="token punctuation">;</span>
+    <span class="token property">project</span><span class="token punctuation">:</span><span class="token url"> url("<a href="https://e-aktywni.online/">e-aktywni.online</a>")</span><span class="token punctuation">;</span>
   <span class="token punctuation">}</span>
 <span class="token punctuation">}</span>
 
-<span class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<span class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 </div>
-<!-- partial -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 </body>
 </html>
