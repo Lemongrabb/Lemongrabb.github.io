@@ -38,7 +38,8 @@ a{
   text-align: left;
   background-color: #473431;
   border-radius: 0 0 5px 5px;
-  overflow: auto;
+  overflow-x:hidden;
+  overflow-y:hidden;
   -webkit-transition: all .5s ease-in-out;
   -moz-transition: wall .5s ease-in-out;
   -o-transition: all .5s ease-in-out;
